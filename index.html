@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id="nav-bar">Caden's Portfolio</li>
+            <li><a href="sports.html">Sports</a></li>
+            <li><a href="games.html">Video Games</a></li>
+            <li><a href="misc.html">Misc</a></li>
+        </ul>
+    </nav>
+    <div id="image">
+        <div class="hero-text">
+            <h1 style="font-size:50px">Caden Buster</h1>
+            <p>Python Programmer</p>
+        </div>
+    </div>
+    <main>
+        <div id="main">
+            <article class="main-articles">
+                <h1 class="heading" >About Me</h1>
+                <figure>
+                    <img src="images/senior-pic.JPG" style="max-width: 100%;">
+                    <figcaption><em>Senior Picture 2021 @St. Martins University</em></figcaption>
+                </figure>
+                <p>My name is Caden Buster, I was born July 3, 2003 in Centralia, Washington. I graduated highschool in 2022.
+                    I want to improve my skills in web development and eventually have a career in the field while also continuing to coach cross country.
+                </p>
+            </article>
+            <article class="main-articles">
+                <h1 class="heading">Hobbies</h1>
+
+                <ul>
+                    <li>Sports</li>
+                    <li>Video games</li>
+                    <li>Board games</li>
+                    <li>Backpacking</li>
+                </ul>
+                <strong><small>Visit the links in the <a href="#nav-bar">navigation bar</a> to learn more.</small></strong>
+            </article>
+        </div>
+        <div id="side">
+            <article class="side-articles" id="profile">
+             <div id="profile-details">
+                <h2>Info</h2>
+                <ul>
+                    <li>(360)206-8633</li>
+                    <li a href="mailto:cadenbuster@gmail.com">cadenbuster@gmail.com</li>
+                </ul>
+             </div>
+            </article>
+            </article>
+            <article class="side-articles">
+                <h1>Contact Me</h1>
+                <strong><small>Please reach out with any questions!</small></strong>
+                <br>
+                <form action="mailto:cadenbuster@gmail.com" method="post">
+                    <label for="name"><strong>Name</strong></label>
+                    <br>
+                    <input type="text" id="name" placeholder="Your Name">
+                    <br>
+                    <label for="body"><strong>Question</strong></label>
+                    <br>
+                    <textarea id="body" placeholder="Your question"></textarea>
+                    <br>
+                    <button type="submit">Submit</button>
+                </form>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <hr>
+        <div>
+            &copy Caden Buster 2023
+        </div>
+    </footer>
+</body>
+</html>
